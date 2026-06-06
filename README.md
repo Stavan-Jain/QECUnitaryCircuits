@@ -21,8 +21,6 @@ The seed example is Chamberland & Cross, *Fault-tolerant magic state preparation
 | [`qec_circuits/`](qec_circuits/) | 19 verified `.qasm` circuits |
 | [`qec_circuits/MANIFEST.md`](qec_circuits/MANIFEST.md) | per-circuit table: code, qubits, gate count, verification, reference |
 | [`generate_qec_circuits.py`](generate_qec_circuits.py) | pure-numpy generator + verifier + stabilizer synthesizer |
-| [`QEC_unitary_circuits_catalog.md`](QEC_unitary_circuits_catalog.md) | literature catalog of 45 cited circuits (shortlist, equivalence pairs, gaps) |
-| `_verified_circuits.json` | machine-readable backing data for the catalog |
 
 ## The circuits (19)
 
@@ -61,8 +59,7 @@ python3 generate_qec_circuits.py    # requires only numpy; regenerates qec_circu
 ## References & license
 
 The circuits are standard constructions from the quantum error correction literature; see
-[`qec_circuits/MANIFEST.md`](qec_circuits/MANIFEST.md) and
-[`QEC_unitary_circuits_catalog.md`](QEC_unitary_circuits_catalog.md) for per-circuit references.
+[`qec_circuits/MANIFEST.md`](qec_circuits/MANIFEST.md) for per-circuit references.
 
 No license file is included yet — add one (e.g. MIT, Apache-2.0, or a public-domain dedication) to
 set reuse terms.
