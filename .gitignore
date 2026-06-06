@@ -5,3 +5,7 @@ PROGRESS.md
 # python
 __pycache__/
 *.pyc
+
+# research artifacts kept local, not published
+QEC_unitary_circuits_catalog.md
+_verified_circuits.json
