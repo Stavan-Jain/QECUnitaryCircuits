@@ -1,0 +1,19 @@
+OPENQASM 2.0;
+include "qelib1.inc";
+// rm15_1531_transversal_Tdg: [[15,1,3]] Reed-Muller -- transversal T-dagger on all 15 qubits; realizes LOGICAL T (Clifford+T, non-Clifford)
+qreg q[15];
+tdg q[0];
+tdg q[1];
+tdg q[2];
+tdg q[3];
+tdg q[4];
+tdg q[5];
+tdg q[6];
+tdg q[7];
+tdg q[8];
+tdg q[9];
+tdg q[10];
+tdg q[11];
+tdg q[12];
+tdg q[13];
+tdg q[14];

@@ -1,0 +1,23 @@
+OPENQASM 2.0;
+include "qelib1.inc";
+// steane_713_encode_plusL: [[7,1,3]] Steane -- logical |+_L> state-prep (|0_L> encoder followed by transversal H)
+qreg q[7];
+h q[0];
+h q[1];
+h q[3];
+cx q[0],q[2];
+cx q[0],q[4];
+cx q[0],q[6];
+cx q[1],q[2];
+cx q[1],q[5];
+cx q[1],q[6];
+cx q[3],q[4];
+cx q[3],q[5];
+cx q[3],q[6];
+h q[0];
+h q[1];
+h q[2];
+h q[3];
+h q[4];
+h q[5];
+h q[6];

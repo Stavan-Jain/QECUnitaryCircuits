@@ -1,0 +1,7 @@
+# local working notes & Claude Code session data (not for publication)
+PROGRESS.md
+.claude/
+
+# python
+__pycache__/
+*.pyc
